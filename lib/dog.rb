@@ -1,5 +1,5 @@
 class Dog
-attr-accessor :name
+
 @@all = []
   def initialize(name)
     @name = name
