@@ -1,5 +1,5 @@
 class Dog
-
+attr-accessor :name
 @@all = []
   def initialize(name)
     @name = name
@@ -8,7 +8,7 @@ class Dog
 
   def self.all
     @@all.each do |dog|
-      puts @@all << all
+      puts dog.name
     end
   end
 end
